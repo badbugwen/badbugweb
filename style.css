@@ -1,0 +1,177 @@
+/* 全網頁適用宣告 */
+* {                        
+  box-sizing: border-box;  
+} 
+a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+h3 {
+  margin: 0;
+}
+#about h1 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+
+hr.bar {
+  border: 2px solid #FFA488;
+  width: 80px;
+}
+#content{
+	position: relative;
+    top: 78px;
+    padding: 15px;
+}
+#content > .container > div {
+  padding: 78px 0;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* 導覽 */
+#nav{ 
+    background-color: #FFA488;
+	position: fixed;
+    top: 0;
+	left: 0;
+	right:0;
+    z-index: 100;
+}
+
+#about, #my-work, #contact-me {
+}
+#my-work-gallery {
+    text-align: center;
+}
+.menu {
+  float: right;
+}
+.menu li{
+  display: inline-block;
+  width: 150px;
+  padding: 10px 0px;
+  
+  border: 1px solid #fff;
+  border-radius: 8px;
+  
+  list-style-type: none;
+  text-align: center;
+  background-color: #FFA488;
+  color: #fff;
+}
+li:hover  {
+  border: 1px solid #FFA488;
+  background-color: #fff;
+}
+
+li:hover a {
+  color: #FFA488;
+  font-weight: 800;
+}
+/* 關於我 */
+#my-avatar {
+  float: left;
+  margin-right: 20px;
+}
+
+#my-avatar img {
+  width: 200px;
+  border-radius: 100px;
+}
+
+
+table {
+  font-size: 14px;
+  text-align: left;
+}
+
+th, td {
+  vertical-align: top;
+}
+th {
+  color: #FFA488;
+  text-align: right;
+}
+td {
+  color: #666;
+  padding-left: 10px;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+/* 作品集 */
+
+.item {
+  position: relative;
+  max-width: 30%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.item img{
+  width: 100%;
+}
+.item-info {
+  background-color: rgba(255,255,255,.8);   /* 背景半透明 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  padding: 25px 10px;
+  
+  display: none;
+}
+.item:hover .item-info {
+  display: block;
+}
+/* 聯絡 */
+
+form.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+.form-row {
+  margin-bottom: 15px;
+}
+
+
+.form-row input, .form-row textarea {
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #D6D9DC;
+  padding: 7px;
+}
+
+.form-row textarea {
+  resize: none;
+  height: 4em;
+}
+.form-row button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.form-row button[type="sumbit"] {
+  background-color: #5995DA;
+  color: #FFFFFF;
+}
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
